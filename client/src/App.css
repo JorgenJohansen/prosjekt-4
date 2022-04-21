@@ -1,0 +1,112 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #e1e1e1;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 50px;
+  background-color: #e1e1e1;
+  margin: 0;
+}
+
+.app-header {
+  background-color: #282c34;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%;
+
+}
+.app-header > div {
+  width: 100%;
+  margin: 0;
+}
+
+a {
+  color: fuchsia;
+}
+
+a.active{
+  color: aqua;
+}
+
+.app-header ul {
+}
+
+.app-header li {
+  display: inline;
+  font-size: 13px;
+  list-style-type: none;
+}
+
+.app-header .large-navbar {
+
+}
+
+.app-header .small-navbar button{
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+
+.app-header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+}
+
+
+.app-header a.active {
+  color: aqua;
+}
+
+.app-header a:hover {
+   color: white;
+ }
+
+.app-header .large-navbar ul {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 0;
+  width: 96%;
+  margin: 0 2% 0 2%;
+}
+
+.app-header .small-navbar ul {
+  margin: 0;
+  padding: 0;
+}
+
+.app-header .large-navbar li {
+}
+
+.app-header .small-navbar li {
+  padding: 10px 0;
+  display: block;
+  margin: 0;
+  list-style-type: none;
+}
+
+.app-footer {
+  background-color: #2b4673;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  bottom: 0;
+  color: #e1e1e1;
+}

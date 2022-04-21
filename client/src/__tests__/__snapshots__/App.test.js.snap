@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="app-container"
+  >
+    <header
+      className="app-header"
+    >
+      <div>
+        <div
+          className="large-navbar sc-bwzfXH jUCstG"
+          size="500px"
+        >
+          <ul>
+            <li>
+              <a
+                aria-current="page"
+                className="active"
+                href="/"
+                onClick={[Function]}
+                style={Object {}}
+              >
+                Hjem
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current={null}
+                href="/about"
+                onClick={[Function]}
+              >
+                Om
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current={null}
+                href="/search/"
+                onClick={[Function]}
+              >
+                Søk
+              </a>
+            </li>
+            <li>
+              <a
+                aria-current={null}
+                href="/watchlist"
+                onClick={[Function]}
+              >
+                Watchlist
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          className="small-navbar sc-bdVaJa iboHHb"
+          size="500px"
+        >
+          <div
+            onClick={[Function]}
+            role="button"
+          >
+            <button>
+              <svg
+                fill="currentColor"
+                height={30}
+                size={30}
+                stroke="currentColor"
+                strokeWidth="0"
+                style={
+                  Object {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 448 512"
+                width={30}
+              >
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div>
+      <div
+        className="home"
+      >
+        <h1>
+          Velkommen til denne søkesiden for filmer
+        </h1>
+        <p>
+          Hvis du vil sjekke ut en spesiell film kan du 
+          <a
+            href="/search/"
+            onClick={[Function]}
+          >
+            søke her
+          </a>
+          .
+        </p>
+        <p>
+          Du kan også legge til filmer du har sett og filmer du ønsker å se i 
+          <a
+            href="/watchlist/"
+            onClick={[Function]}
+          >
+            Watchlist
+          </a>
+          .
+        </p>
+        <p>
+          Her er noen av våre favoritter du kan se nærmere på:
+        </p>
+        <div
+          className="movie-list-container"
+        >
+          <div>
+            <div
+              className="movie-list-item"
+            >
+              <a
+                href="/movie/tt0035665"
+                onClick={[Function]}
+              >
+                <div
+                  className="image-container no-image"
+                />
+                <p>
+                  Laster ...
+                </p>
+              </a>
+            </div>
+            <div
+              className="movie-list-item"
+            >
+              <a
+                href="/movie/tt0120338"
+                onClick={[Function]}
+              >
+                <div
+                  className="image-container no-image"
+                />
+                <p>
+                  Laster ...
+                </p>
+              </a>
+            </div>
+            <div
+              className="movie-list-item"
+            >
+              <a
+                href="/movie/tt0372784"
+                onClick={[Function]}
+              >
+                <div
+                  className="image-container no-image"
+                />
+                <p>
+                  Laster ...
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      className="app-footer"
+    >
+      <span>
+        Laget av gruppe 47
+      </span>
+    </footer>
+  </div>
+</div>
+`;

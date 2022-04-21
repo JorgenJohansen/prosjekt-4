@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering matches snaphot 1`] = `
+<div
+  className="watchlist"
+>
+  <h1>
+    Du har ingen filmer i din Watchlist
+  </h1>
+  <p>
+     Du kan finne filmer på 
+    <a
+      href="/search/"
+      onClick={[Function]}
+    >
+      søkesiden,
+    </a>
+     klikke deg inn på dem, og legge dem til i din Watchlist.
+  </p>
+</div>
+`;
+
+exports[`rendering correctly with lists should return both arrays with content 1`] = `
+<div
+  className="watchlist"
+>
+  <h1>
+    Filmene du ønsker å se
+  </h1>
+  <div
+    className="movie-list-container"
+  >
+    <div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0361763"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt1194172"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <h1>
+    Filmene du har sett
+  </h1>
+  <div
+    className="movie-list-container"
+  >
+    <div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0057875"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt1228961"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0061386"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0103776"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`rendering correctly with lists should return empty hasWatched 1`] = `
+<div
+  className="watchlist"
+>
+  <h1>
+    Filmene du ønsker å se
+  </h1>
+  <div
+    className="movie-list-container"
+  >
+    <div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0361763"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt1194172"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    className="movie-list-container"
+  >
+    <div />
+  </div>
+</div>
+`;
+
+exports[`rendering correctly with lists should return empty lists 1`] = `
+<div
+  className="watchlist"
+>
+  <h1>
+    Du har ingen filmer i din Watchlist
+  </h1>
+  <p>
+     Du kan finne filmer på 
+    <a
+      href="/search/"
+      onClick={[Function]}
+    >
+      søkesiden,
+    </a>
+     klikke deg inn på dem, og legge dem til i din Watchlist.
+  </p>
+</div>
+`;
+
+exports[`rendering correctly with lists should return empty wantToWatch 1`] = `
+<div
+  className="watchlist"
+>
+  <div
+    className="movie-list-container"
+  >
+    <div />
+  </div>
+  <h1>
+    Filmene du har sett
+  </h1>
+  <div
+    className="movie-list-container"
+  >
+    <div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0057875"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt1228961"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0061386"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+      <div
+        className="movie-list-item"
+      >
+        <a
+          href="/movie/tt0103776"
+          onClick={[Function]}
+        >
+          <div
+            className="image-container no-image"
+          />
+          <p>
+            Laster ...
+          </p>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

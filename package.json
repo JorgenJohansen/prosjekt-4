@@ -1,0 +1,42 @@
+{
+  "name": "movie-server",
+  "version": "1.0.0",
+  "description": "A simple Express server for prosjekt 4",
+  "main": "server/server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "query-string": "^6.2.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/client/",
+      "/cypress/"
+    ]
+  },
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server/server.js",
+    "client": "node start-client.js",
+    "test": "concurrently \"jest --watchAll\" \"npm run testClient\"",
+    "testClient": "node start-client-tests.js",
+    "testServer": "jest",
+    "cypress": "node_modules/.bin/cypress open",
+    "integrationTest": "concurrently \"NODE_ENV=test npm start\" \"npm run cypress\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.stud.idi.ntnu.no:it2810-h18/prosjekt3/gruppe47.git"
+  },
+  "author": "Gruppe47",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "cypress": "^3.1.1",
+    "jest": "^23.6.0"
+  }
+}

@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rendering renders correctly with renderer 1`] = `
+<div
+  className="movie-details"
+>
+  <div
+    className="container"
+  >
+    <h3>
+      Det skjedde noe feil ...
+    </h3>
+    <a
+      href="/"
+    >
+      Gå tilbake til forsiden
+    </a>
+  </div>
+</div>
+`;
+
+exports[`Rendering renders empty with empty call 1`] = `
+<div
+  className="movie-details"
+>
+  <div
+    className="container"
+  >
+    <h3>
+      Det skjedde noe feil ...
+    </h3>
+    <a
+      href="/"
+    >
+      Gå tilbake til forsiden
+    </a>
+  </div>
+</div>
+`;

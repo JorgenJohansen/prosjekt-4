@@ -1,0 +1,43 @@
+.searchFieldComponent {
+    margin-bottom: 20px;
+}
+
+.searchFieldComponent input[type=number]{
+    width: 4em;
+}
+
+.searchFieldComponent button[type=submit]{
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.searchFieldComponent label{
+    padding-top: 10px;
+    display: block;
+}
+
+.searchFieldComponent input{
+    font-size: 1em;
+}
+
+.searchFieldComponent button.toggle-advanced-search {
+    display: block;
+    margin: 0 auto;
+}
+
+.searchFieldComponent label.director {
+    display: block;
+    margin: 0 auto;
+}
+
+.searchFieldComponent label {
+    margin: 0 5px;
+}
+
+.searchFieldComponent .range-slider {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+

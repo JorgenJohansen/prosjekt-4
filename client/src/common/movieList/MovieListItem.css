@@ -1,0 +1,50 @@
+.movie-list-item {
+    margin: 30px 10px;
+    padding: 3% 3% 3% 3%;
+    background-color: #869BF0;
+    height: auto;
+}
+
+.movie-list-item:hover {
+    background-color: #6695ed;
+}
+
+.movie-list-item:active {
+    background-color: #7ad3f0;
+}
+
+.grid{
+    display: grid;
+    grid-template-areas: 'picture txt';
+}
+
+.grid > .image-container {
+    grid-area: picture;
+    max-width: 120px;
+    min-width: 30px;
+}
+
+.grid > .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.image-container.no-image {
+    /* TODO: Background picture for missing images, this is just an example */
+    background: url('/missingposter.svg') no-repeat;
+    background-size: contain;
+    height: auto;
+    grid-area: picture;
+}
+
+
+
+.grid > .text-container {
+    grid-area: txt;
+    color: #282c34;
+    text-decoration: underline;
+    text-decoration-color: #282c34;
+    min-height: 150px;
+    max-width: 200px;
+}
+
